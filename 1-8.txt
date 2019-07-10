@@ -1,0 +1,9 @@
+docker run -v $(pwd)/logs.txt:/usr/app/logs.txt devopsdockeruh/first_volume_exercise
+^C
+cat logs.txt
+Wed, 10 Jul 2019 16:02:26 GMT
+Wed, 10 Jul 2019 16:02:29 GMT
+Wed, 10 Jul 2019 16:02:32 GMT
+Wed, 10 Jul 2019 16:02:35 GMT
+Secret message is:
+"Volume bind mount is easy"
