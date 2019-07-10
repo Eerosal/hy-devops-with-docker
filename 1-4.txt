@@ -1,0 +1,17 @@
+docker run devopsdockeruh/exec_bash_exercise
+^C
+docker ps -a
+docker start 9f
+docker exec -it pedantic_babbage bash
+>tail -f ./logs.txt
+Wed, 10 Jul 2019 09:59:29 GMT
+Wed, 10 Jul 2019 09:59:32 GMT
+Wed, 10 Jul 2019 09:59:35 GMT
+Wed, 10 Jul 2019 09:59:38 GMT
+Secret message is:
+"Docker is easy"
+Wed, 10 Jul 2019 09:59:44 GMT
+Wed, 10 Jul 2019 09:59:47 GMT
+Wed, 10 Jul 2019 09:59:50 GMT
+^C
+exit
