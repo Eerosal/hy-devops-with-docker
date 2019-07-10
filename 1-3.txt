@@ -1,0 +1,4 @@
+docker run -it devopsdockeruh/pull_exercise
+-> installs and asks for password
+
+This is the secret message
