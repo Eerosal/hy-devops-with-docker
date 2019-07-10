@@ -1,0 +1,5 @@
+docker run -p 12345:80 devopsdockeruh/ports_exercise
+
+*another terminal*
+curl http://localhost:12345
+-> Ports configured correctly!!
