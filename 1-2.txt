@@ -1,0 +1,5 @@
+docker ps -a
+CONTAINER ID        IMAGE  
+
+docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
