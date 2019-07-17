@@ -1,6 +1,5 @@
-FROM node:latest
-
+FROM node:lts
 COPY . .
-RUN npm install
-RUN npm run-script start
+
+CMD npm install && npm run-script start
 EXPOSE 5000
