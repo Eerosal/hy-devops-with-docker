@@ -1,0 +1,9 @@
+docker build -t backend .
+
+docker run -it -v $(pwd)/logs.txt:/logs.txt -p 8000:8000 backend
+
+curl http://localhost:8000
+>Port configured correctly, generated message in logs.txt
+
+cat logs.txt
+>7/17/2019, 5:00:53 PM: Connection received in root
